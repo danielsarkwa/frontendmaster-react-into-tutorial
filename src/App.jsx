@@ -1,14 +1,16 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Order from "./Order";
+import PizzaOfTheDay from "./PizzaOfTheDay";
 
 // create the base react element
 const App = () => {
   return (
     <StrictMode>
       <div>
-        <h1>Padre Ginos</h1>
+        <h1 className="logo">Padre Ginos</h1>
         <Order />
+        <PizzaOfTheDay />
       </div>
     </StrictMode>
   );
