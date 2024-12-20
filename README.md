@@ -81,3 +81,15 @@ This project is powered by:
 
 - Special thanks to FrontendMaster for the amazing course and tutorials.
 - Inspiration for this project comes from my goal to improve my frontend skills and build robust web applications.
+
+## Notes
+- Using context and state; use context when you have a state that it used in multiple points of your application like user profile, shopping cart, theme. You can use usestate when you have a state that needs to be managed when the view is active, like filling a form and you need to pass the data forward to another component
+- When we use context we want to provide app level state
+- We can use it like the useState only that it's managed somewhere else in our application and other components can also use the same data or information
+- Setup
+  - Choose where to use it and where it's needed to be read
+  - Create the context
+  - Render the context at the right component level
+  - Set up the hook for the context provider
+  - Import useContext and your custom context
+  - Use useContext(your-custom-context) with state values [cart, setCart] 
