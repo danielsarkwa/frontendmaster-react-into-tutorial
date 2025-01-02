@@ -6,6 +6,9 @@ export const Route = createLazyFileRoute("/contact")({
   component: ContactRoute,
 });
 
+// uncontrolled form helps to validate the data when the user has finished filling the form
+// controlled form is helpful when you want the form to reactive, like populate a form when user fills one part of the form
+
 function ContactRoute() {
   // mutation is used to send data to the backend to change a data
   // when the data is saved on the backend, the mutation function saves the data in the cache
