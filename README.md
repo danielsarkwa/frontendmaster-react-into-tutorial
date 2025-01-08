@@ -42,7 +42,9 @@ To run the project, ensure the following are installed:
    npm install
    ```
 
-3. Start the development server:
+3. Clone the [repo](https://github.com/btholt/citr-v9-project/tree/main/api) from bholt to run the backend api (`/api` directory) needed for the frontend
+   
+4. Start the development server:
    ```bash
    npm run dev
    ```
