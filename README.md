@@ -2,6 +2,9 @@
 
 This repository is part of my journey to learn React through the FrontendMaster React Intro course. It contains the demo projects and exercises I've built while following the course.
 
+## Live application running on Netlify and backend running on Render
+- React application - 
+
 ## About
 
 This project showcases the fundamentals of React, a popular JavaScript library for building user interfaces. It includes key concepts like:
